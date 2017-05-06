@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style type="text/css">
+
+        a[href] {
+
+            text-decoration: none;
+
+        }
+
+        a[href="#"] {
+
+            color: red;
+        }
+
+        a[href$="#"] {
+
+            color: green;
+        }
+
+        a[href*="#"] {
+
+            color: yellow;
+        }
+        a[href|="#"] {
+
+            color: orange;
+        }
+
+
+    </style>
+</head>
+<body>
+<a href="Attribute.html">attribute</a>
+<a href="#1">attribute</a>
+<a href="#2">attribute</a>
+<a href="#3">attribute</a>
+<a href="#4">attribute</a>
+
+<a href="1#1">attribute</a>
+<a href="2#2">attribute</a>
+<a href="3#3">attribute</a>
+<a href="4#4">attribute</a>
+
+<a href="#-1">attribute</a>
+<a href="#-2">attribute</a>
+<a href="#-3">attribute</a>
+<a href="#-4">attribute</a>
+</body>
+</html>
