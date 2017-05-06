@@ -15,6 +15,7 @@
 3. 通用兄弟选择器
 4. 群组选择器
 5. 属性选择器
+6. 伪类选择器
 
 | CSS3新增选择器     | 概念 | 语法格式   | 兼容性   |举个例子   |
 | :------- | ----: | :---: |:---: |:---: |
@@ -35,3 +36,13 @@
 | attribute$=“value”  | 设置 attribute 属性值以 "value" 结尾的所有 Element 元素的样式   |  IE8+、FireFox、Chrome、Safari、Opera |[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
 | attribute*=“value”  | 设置 attribute 属性值包含 "value" 的所有 Element 元素的样式   |  IE8+、FireFox、Chrome、Safari、Opera|[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
 | attribute /=“value” | 选择 attribute 属性值为 "value”或以 "value-" 开头的元素,并设置其样式   |  IE8+、FireFox、Chrome、Safari、Opera|[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
+
+> #### 伪类选择器
+
+| 分类     | 概念 | 兼容性   |举个例子|
+| :------- | ----: | :---: | :---: |
+| 动态伪类 | 这些伪类并不存在于HTML中,只有当用户和网站交互的时候才能体现出来 |  :link, :visited;:hover, :active, :focus    |[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class01.html)|
+| UI元素状态伪类    | 我们把":enabled",":disabled",":checked"伪类称为UI元素状态伪类 |  IE9+、FireFox、Chrome、Safari、Opera   |[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)|
+| CSS3结构类     | 我们把CSS3的:nth选择器也成为CSS3结构类   |  IE8+、FireFox、Chrome、Safari、Opera  |:first-child、:last-child、:nth-child()、:nth-last-child()、:nth-of-type()、 :nth-last-of-type()、:first-of-type、:last-of-type、:only-child、:only-of-type、:empty|
+| 否定选择器     | :not(Element/selector) 选择器匹配非指定元素/选择器的每个元素,语法格式:父元素:not(子元素/子选择器) (Father:not(Children/selector))   |  IE9+、FireFox、Chrome、Safari、Opera  |未知|
+| 伪元素     | CSS 伪元素用于向某些选择器设置特殊效果 ,语法格式:元素::伪元素 (Element::pseudo-element)   |  IE9+、FireFox、Chrome、Safari、Opera  |未知|
