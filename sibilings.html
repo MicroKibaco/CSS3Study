@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通用兄弟选择器</title>
+
+
+    <style type="text/css">
+        section > div ~ article {
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <article>
+        <div>article 里面的文字</div>
+    </article>
+    <div>article 外面的文字</div>
+
+    <article>
+        <div>article 里面的文字</div>
+    </article>
+
+    <article>
+        <div>article 里面的文字</div>
+    </article>
+
+</section>
+</body>
+</html>
