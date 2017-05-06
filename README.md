@@ -34,4 +34,4 @@
 | attribute^=“value”    | 设置 attribute 属性值以 "value" 开头的所有 Element 元素的样式    |  IE8+、FireFox、Chrome、Safari、Opera |[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
 | attribute$=“value”  | 设置 attribute 属性值以 "value" 结尾的所有 Element 元素的样式   |  IE8+、FireFox、Chrome、Safari、Opera |[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
 | attribute*=“value”  | 设置 attribute 属性值包含 "value" 的所有 Element 元素的样式   |  IE8+、FireFox、Chrome、Safari、Opera|[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
-| attribute|=“value” | 选择 attribute 属性值为 "value”或以 "value-" 开头的元素,并设置其样式   |  IE8+、FireFox、Chrome、Safari、Opera|[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
+| attribute /=“value” | 选择 attribute 属性值为 "value”或以 "value-" 开头的元素,并设置其样式   |  IE8+、FireFox、Chrome、Safari、Opera|[attribute](https://github.com/MicroKibaco/CSS3Study/blob/master/selector/pseudo-class02.html)  |
